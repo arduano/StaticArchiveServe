@@ -8,5 +8,4 @@ services:
     ports:
       - ${PORT}:5000
     volumes:
-      - ./data/${ARCHIVENAME}:/app/data/${ARCHIVENAME}
-      - ./data/sitemap.json:/app/data/sitemap.json
+      - ./data:/app/data
