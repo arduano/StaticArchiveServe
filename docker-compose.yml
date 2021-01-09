@@ -1,6 +1,6 @@
 version: "3"
 services:
-  static_serve:
+  static-serve:
     build: '.'
     image: archive_static-serve
     container_name: archive_static-serve
