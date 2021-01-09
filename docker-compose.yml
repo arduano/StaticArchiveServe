@@ -2,8 +2,8 @@ version: "3"
 services:
   static_serve:
     build: '.'
-    image: archive-static_serve
-    container_name: archive-static_serve
+    image: archive_static-serve
+    container_name: archive_static-serve
     restart: unless-stopped
     ports:
       - ${PORT}:5000
